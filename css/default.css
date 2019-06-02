@@ -167,6 +167,15 @@ a:hover {
 	content: "\e004";
 }
 
+.footer {
+    display: table;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+}
+
 @media screen and (max-width: 55em) {
 
 	.container > header h1,
@@ -186,4 +195,3 @@ a:hover {
 	.container > header > span {
 		text-indent: 30px;
 	}
-}
